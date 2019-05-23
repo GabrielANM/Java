@@ -21,3 +21,12 @@ let imagem2 = document.getElementById("imagem2");
 imagem2.onclick = function() {
     console.log("estou clickando na imagem");
 }
+
+/*document.querySelector("body").addEventListener("click", function() {
+    this.style.background = "red";
+}); */
+
+document.getElementById("google").addEventListener("click", function(event) {
+    event.preventDefault();
+    alert("Não é possivel enviar");
+});
