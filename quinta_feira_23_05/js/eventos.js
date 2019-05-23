@@ -1,4 +1,4 @@
-/*let btnHello = document.getElementById("btnHello");
+let btnHello = document.getElementById("btnHello");
 btnHello.addEventListener("click", function(event) {
     console.log(event.clientX);
     console.log(event.clientY);
@@ -40,7 +40,7 @@ document.querySelector("body").addEventListener("keypress", function(event) {
     if (tecla == 13) {
         alert("Você clickou seu abençoado");
     }
-});*/
+});
 
 let btnHello = document.querySelector("#btnHello");
 
