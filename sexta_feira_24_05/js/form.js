@@ -1,3 +1,4 @@
+let fusao;
 let formulario = document.querySelector("form");
 formulario.onsubmit = function() {
     if (formulario.nome.value == "" || formulario.sobrenome.value == "") {
@@ -10,10 +11,10 @@ formulario.onsubmit = function() {
     }
 }
 
-function recebeNomeSobrenome(x, y) {
-    let nomeSobrenome = x + y;
-    console.log(nomeSobrenome);
+let nomeSobrenome = document.querySelector("form");
+nomeSobrenome.onsubmit = function() {
+    fusao = formulario.nome.value + " " + formulario.sobrenome.value;
+    return alert(fusao);
 }
 
-recebeNomeSobrenome(formulario.nome.value, formulario.sobrenome.value);
 
