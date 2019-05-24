@@ -50,5 +50,3 @@ btnHello.addEventListener("click", function() {
         
     }, 10000);
 });
-
-
