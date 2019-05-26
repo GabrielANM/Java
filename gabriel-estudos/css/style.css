@@ -1,0 +1,30 @@
+body{
+  background-image: url('https://image.freepik.com/free-vector/white-canvas-background_1053-239.jpg');
+}
+.main-page{
+  background-color: white;
+  height: 100vh;
+}
+#heart-image{
+  width: 7em;
+  height: 7em;
+  border-radius: 50%;
+  margin: 10px 0px;
+}
+.header-text{
+  margin: 0px 80px;
+}
+footer{
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+li{
+  list-style: none;
+   margin: 0px 10px; 
+}
+
+i{
+  font-size: 2em;
+  color: red;
+}
