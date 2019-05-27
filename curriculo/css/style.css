@@ -66,4 +66,15 @@ footer{
    margin-top: 10px;
  }
 
- 
+ .icone{
+   margin-top: 10px;
+ }
+
+ .textos {
+   transition: width 3s;
+ }
+
+.textos:hover{
+  width: 500px;
+  background-color: rgb(235, 235, 255);
+} 
