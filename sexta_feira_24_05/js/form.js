@@ -1,3 +1,4 @@
+let corpo = document.querySelector("body")
 let fusao;
 let formulario = document.querySelector("form");
 formulario.onsubmit = function() {
@@ -17,14 +18,28 @@ nomeSobrenome.onsubmit = function() {
     return alert(fusao);
 }
 
-document.querySelector("#nome").removeAttribute("type");
-document.querySelector("#nome").removeAttribute("required");
-document.querySelector("#sobrenome").removeAttribute("type");
-document.querySelector("#sobrenome").removeAttribute("required");
+let ocultar = document.querySelector("#ocultar");
+ocultar.onclick = function() {
+    
+    let lista ="<ul>"
+    for (i = 0; i < formulario.elements.length; i++) {
+        if (formulario.elements[i].name != "button") {
+            lista += "<li>Nome: " + formulario.elements[i].name + " - Valor: " + formulario.elements[i].value + "</li>";
+        }
+    }
+    lista += "</ul>";
 
-function adicionar (id, atributo) {
-    document.getElementById(id).createAttribute(atributo);
+    formulario.innerHTML = lista;
 }
 
-adicionar("nome", "type");
-
+document.querySelector(".radio").onclick = function() {
+        if (formulario.name.value === "F") {
+            document.body.style.background = "black";
+        }
+        if (formulario.name.value === "M") {
+            document.body.style.background = "red";
+        }
+        /*if (formulario.input.checked == true && formulario.elements[i].id == "radio3") {
+            document.body.style.background = "blue";
+        } */      
+    }
