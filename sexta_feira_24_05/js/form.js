@@ -17,4 +17,14 @@ nomeSobrenome.onsubmit = function() {
     return alert(fusao);
 }
 
+document.querySelector("#nome").removeAttribute("type");
+document.querySelector("#nome").removeAttribute("required");
+document.querySelector("#sobrenome").removeAttribute("type");
+document.querySelector("#sobrenome").removeAttribute("required");
+
+function adicionar (id, atributo) {
+    document.getElementById(id).createAttribute(atributo);
+}
+
+adicionar("nome", "type");
 
