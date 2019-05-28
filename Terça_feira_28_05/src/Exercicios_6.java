@@ -10,7 +10,7 @@ public class Exercicios_6 {
         gratificacao = sc.nextDouble();
         System.out.print("Digite o valor da imposto: ");
         imposto = sc.nextDouble();
-        novo_salario = salario / imposto;
+        novo_salario = salario * imposto;
         novo_salario = novo_salario * gratificacao;
         System.out.print("O novo valor do salario é de: " + novo_salario);
     }
