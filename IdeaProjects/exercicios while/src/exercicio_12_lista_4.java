@@ -5,7 +5,7 @@ public class exercicio_12_lista_4 {
         Scanner sc = new Scanner(System.in);
         double salario, numero, salario_funcionario, pecas = 0, aumento = 0, folha_salarial = 0, pecas_mes = 0;
         double conta_homem = 0, pecas_homem = 0, media_homens = 0, conta_mulher = 0, pecas_mulher = 0, media_mulheres = 0;
-        double maior_salario = 0, numero_do_maior_salario = 0;
+        double maior_salario = 0, numero_do_maior_salario = 0,conta_pecas = 0;
         char sexo;
         double[] funcionario = new double[3];
         System.out.printf("Digite o valor do salario minimo: ");
@@ -21,12 +21,12 @@ public class exercicio_12_lista_4 {
                 funcionario[i] = salario;
                 System.out.printf("O funcionário numero " + numero + " recebeu o salario de " + funcionario[i] + " reais\n");
             } else if (pecas > 21 && pecas <= 31) {
-                pecas = pecas - 21;
+                conta_pecas = pecas - 21;
                 aumento = (salario * 0.03) * pecas;
                 funcionario[i] = salario + aumento;
                 System.out.printf("O funcionário numero " + numero + " recebeu o salario de " + funcionario[i] + " reais\n");
             } else if (pecas > 31) {
-                pecas = pecas - 31;
+                conta_pecas = pecas - 31;
                 aumento = (salario * 0.05) * pecas;
                 funcionario[i] = salario + aumento;
                 System.out.printf("O funcionário numero " + numero + " recebeu o salario de " + funcionario[i] + " reais\n");
