@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abc1fba0-2631-43b3-b1cd-78be01b6b38d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Exercicio_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quarta_feira_29_05/src/exercicio_array_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Quarta_feira_29_05/src/exercicio_array_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/segunda-tentativa/Exercicios_6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/segunda-tentativa/Exercicios_6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicios_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicios_6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicios_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicios_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/segunda-tentativa/Exercicio_8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/segunda-tentativa/Exercicio_8.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,62 +17,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Exercicio_3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="19" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Exercicio_4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Exercicios_5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Exercicios_6.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Exercicios_7.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Exercicio_8.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -99,6 +42,7 @@
         <option value="$PROJECT_DIR$/src/Exercicios_5.java" />
         <option value="$PROJECT_DIR$/src/Exercicios_7.java" />
         <option value="$PROJECT_DIR$/src/Exercicio_8.java" />
+        <option value="$PROJECT_DIR$/../Quarta_feira_29_05/src/exercicio_array_1.java" />
       </list>
     </option>
   </component>
@@ -118,27 +62,12 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Terça_feira_28_05" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Terça_feira_28_05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Terça_feira_28_05" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Terça_feira_28_05" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Quarta_feira_29_05" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -155,16 +84,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Exercicio_8">
+  <component name="RunManager" selected="Application.exercicio_array_1">
     <configuration name="Exercicio_3" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercicio_3" />
-      <module name="segunda-tentativa" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercicio_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercicio_4" />
       <module name="segunda-tentativa" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -198,21 +120,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="exercicio_array_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicio_array_1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Exercicio_3" />
-      <item itemvalue="Application.Exercicio_4" />
       <item itemvalue="Application.Exercicios_5" />
       <item itemvalue="Application.Exercicios_6" />
       <item itemvalue="Application.Exercicios_7" />
       <item itemvalue="Application.Exercicio_8" />
+      <item itemvalue="Application.exercicio_array_1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.exercicio_array_1" />
         <item itemvalue="Application.Exercicio_8" />
         <item itemvalue="Application.Exercicios_6" />
         <item itemvalue="Application.Exercicios_7" />
         <item itemvalue="Application.Exercicios_5" />
-        <item itemvalue="Application.Exercicio_4" />
       </list>
     </recent_temporary>
   </component>
@@ -231,9 +159,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -357,8 +284,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Exercicio_8.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        <state relative-caret-position="136">
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Quarta_feira_29_05/src/exercicio_array_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
         </state>
       </provider>
     </entry>
