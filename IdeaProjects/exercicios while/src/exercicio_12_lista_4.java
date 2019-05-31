@@ -33,11 +33,11 @@ public class exercicio_12_lista_4 {
             }
         folha_salarial = folha_salarial + funcionario[i];
         pecas_mes = pecas_mes + pecas;
-        if (sexo == 'm' ); {
+        if (sexo == 105 ); {
                conta_homem = conta_homem + 1;
                pecas_homem = pecas_homem + pecas;
             }
-        if (sexo == 'f' ); {
+        if (sexo == 102  ); {
                 conta_mulher = conta_mulher + 1;
                 pecas_mulher = pecas_mulher + pecas;
         }

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/GabrielANM.github.io.iml" filepath="$PROJECT_DIR$/.idea/GabrielANM.github.io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IdeaProjects/JavaOnline/JavaOnline.iml" filepath="$PROJECT_DIR$/IdeaProjects/JavaOnline/JavaOnline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Terça_feira_28_05/Terça_feira_28_05.iml" filepath="$PROJECT_DIR$/Terça_feira_28_05/Terça_feira_28_05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IdeaProjects/exercicios while/exercicios while.iml" filepath="$PROJECT_DIR$/IdeaProjects/exercicios while/exercicios while.iml" />
     </modules>
   </component>
 </project>
