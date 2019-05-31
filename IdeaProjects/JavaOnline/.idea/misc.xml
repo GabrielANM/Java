@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD:IdeaProjects/JavaOnline/.idea/misc.xml
   <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="true" project-jdk-name="12" project-jdk-type="JavaSDK">
+=======
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+>>>>>>> 7b59ff72a1173c2db3e38e3864fab7370e29a3c7:Quarta_feira_29_05/.idea/misc.xml
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
