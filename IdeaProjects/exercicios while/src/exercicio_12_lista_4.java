@@ -14,7 +14,7 @@ public class exercicio_12_lista_4 {
             System.out.printf("Digite o numero do funcionário " + i + " : ");
             numero = sc.nextDouble();
             System.out.printf("Digite o sexo do funcionário: " + i + " : ");
-            sexo = sc.next().charAt(0);
+            sexo = sc.nextLine().charAt(0);
             System.out.printf("Digite o numero de peças produzidas pelo funcionário neste mês: ");
             pecas = sc.nextDouble();
             if (pecas <= 21) {
@@ -33,11 +33,11 @@ public class exercicio_12_lista_4 {
             }
         folha_salarial = folha_salarial + funcionario[i];
         pecas_mes = pecas_mes + pecas;
-        if (sexo == 105 ); {
+        if (sexo == 'f' ); {
                conta_homem = conta_homem + 1;
                pecas_homem = pecas_homem + pecas;
             }
-        if (sexo == 102  ); {
+        if (sexo == 'm'  ); {
                 conta_mulher = conta_mulher + 1;
                 pecas_mulher = pecas_mulher + pecas;
         }
