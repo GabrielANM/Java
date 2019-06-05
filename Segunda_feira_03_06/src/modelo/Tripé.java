@@ -1,6 +1,6 @@
 package modelo;
 
-public class Tripé {
+public class  Tripé {
     private boolean dobrado;
     private int alturaMaxima;
     private int alturaMinima;
@@ -77,7 +77,7 @@ public class Tripé {
             this.dobrado = false;
         }
         if (this.alturaAtual <= (this.alturaMaxima / 2)) {
-            this.alturaAtual = this.alturaAtual + (this.alturaMaxima / 2);
+            this.alturaAtual += (this.alturaMaxima / 2);
         }
     }
 
