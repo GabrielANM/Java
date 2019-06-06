@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c17b38c-8da4-4ddb-9b49-ea2ce429882d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicio_poo/src/modelo/Cheque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicio_poo/src/modelo/ContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/JavaOnline/JavaOnline.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IdeaProjects/JavaOnline/JavaOnline.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/exercicios while/exercicios while.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IdeaProjects/exercicios while/exercicios while.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quarta_feira+05_06.2/Quarta_feira+05_06.2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Quarta_feira+05_06.2/Quarta_feira+05_06.2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quarta_feira_05_06/Quarta_feira_05_06.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Quarta_feira_05_06/Quarta_feira_05_06.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Segunda_feira_03_06/Segunda_feira_03_06.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Segunda_feira_03_06/Segunda_feira_03_06.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Terça_feira_28_05/Terça_feira_28_05.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Terça_feira_28_05/Terça_feira_28_05.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio_poo/exercicio_poo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_poo/exercicio_poo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio_poo/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_poo/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio_poo/src/modelo/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_poo/src/modelo/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio_poo/src/modelo/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_poo/src/modelo/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio_poo/src/modelo/Conta_poupança.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_poo/src/modelo/ContaPoupança.java" afterDir="false" />
-    </list>
+    <list default="true" id="4c17b38c-8da4-4ddb-9b49-ea2ce429882d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,8 +15,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exercicio_poo/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="16" column="104" lean-forward="true" selection-start-line="16" selection-start-column="104" selection-end-line="16" selection-end-column="104" />
+            <state relative-caret-position="270">
+              <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -132,14 +113,14 @@
         <option value="$PROJECT_DIR$/exercicio_poo/src/modelo/Conta_poupança.java" />
         <option value="$PROJECT_DIR$/exercicio_poo/src/modelo/Conta_corrente.java" />
         <option value="$PROJECT_DIR$/exercicio_poo/src/modelo/Cliente.java" />
-        <option value="$PROJECT_DIR$/exercicio_poo/src/Main.java" />
         <option value="$PROJECT_DIR$/exercicio_poo/src/modelo/ContaPoupança.java" />
         <option value="$PROJECT_DIR$/exercicio_poo/src/modelo/Conta.java" />
         <option value="$PROJECT_DIR$/exercicio_poo/src/modelo/ContaCorrente.java" />
+        <option value="$PROJECT_DIR$/exercicio_poo/src/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="399" />
     <option name="y" value="20" />
     <option name="width" value="974" />
@@ -274,7 +255,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290938" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290938" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
@@ -362,8 +343,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exercicio_poo/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="104" lean-forward="true" selection-start-line="16" selection-start-column="104" selection-end-line="16" selection-end-column="104" />
+        <state relative-caret-position="270">
+          <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
         </state>
       </provider>
     </entry>
