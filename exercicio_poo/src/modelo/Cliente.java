@@ -1,11 +1,12 @@
 package modelo;
 
+import java.util.Objects;
+
 public class Cliente {
     private Integer numero;
     private String nome;
     private String rg;
     private String cpf;
-
 
     public Integer getNumero() {
         return numero;

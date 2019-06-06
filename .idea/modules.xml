@@ -3,7 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/IdeaProjects/JavaOnline/JavaOnline.iml" filepath="$PROJECT_DIR$/IdeaProjects/JavaOnline/JavaOnline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quarta_feira+05_06.2/Quarta_feira+05_06.2.iml" filepath="$PROJECT_DIR$/Quarta_feira+05_06.2/Quarta_feira+05_06.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quarta_feira_05_06/Quarta_feira_05_06.iml" filepath="$PROJECT_DIR$/Quarta_feira_05_06/Quarta_feira_05_06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Segunda_feira_03_06/Segunda_feira_03_06.iml" filepath="$PROJECT_DIR$/Segunda_feira_03_06/Segunda_feira_03_06.iml" />
       <module fileurl="file://$PROJECT_DIR$/Terça_feira_28_05/Terça_feira_28_05.iml" filepath="$PROJECT_DIR$/Terça_feira_28_05/Terça_feira_28_05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicio_poo/exercicio_poo.iml" filepath="$PROJECT_DIR$/exercicio_poo/exercicio_poo.iml" />
       <module fileurl="file://$PROJECT_DIR$/IdeaProjects/exercicios while/exercicios while.iml" filepath="$PROJECT_DIR$/IdeaProjects/exercicios while/exercicios while.iml" />
     </modules>
   </component>

@@ -1,13 +1,14 @@
-
 package modelo;
 
-public class Conta_poupança extends Conta {
+public class ContaCorrente extends Conta {
 
-    public Conta_poupança(Cliente cliente, double saldo) {
+    private double chequeEspecial;
+
+    public ContaCorrente(Cliente cliente, double saldo) {
         super(cliente, saldo);
     }
 
-    public Conta_poupança() {
+    public ContaCorrente() {
     }
 
     @Override
@@ -24,9 +25,13 @@ public class Conta_poupança extends Conta {
     }
 
     @Override
-    public void consultarSaldo() {
-        System.out.println(this.getSaldo());
+    public double consultarSaldo() {
+        return this.getSaldo();
     }
 
-
+    public void depositar(Cheque cheque) {
+        this.setSaldo(this.getSaldo() + cheque.getValor());
+        System.out.println(cheque.getValor() + " " + getSaldo());
+    }
 }
+

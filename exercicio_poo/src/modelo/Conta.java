@@ -6,7 +6,7 @@ public abstract class Conta {
 
     public abstract void depositar(double valor);
     public abstract void sacar(double valor);
-    public abstract void consultarSaldo();
+    public abstract double consultarSaldo();
 
     public Conta(Cliente cliente, double saldo) {
         this.cliente = cliente;
