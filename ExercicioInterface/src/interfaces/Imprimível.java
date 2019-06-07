@@ -1,5 +1,7 @@
 package interfaces;
 
 public interface Imprimível {
-    public void imprimir();
+    public default void imprimir() {
+
+    }
 }

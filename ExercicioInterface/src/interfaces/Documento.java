@@ -1,6 +1,6 @@
 package interfaces;
 
-public class Foto extends Impressora implements Imprimível {
+public class Documento implements Imprimível {
     private String nome;
     private String tipo;
 
@@ -20,13 +20,16 @@ public class Foto extends Impressora implements Imprimível {
         this.tipo = tipo;
     }
 
-    public Foto(String nome, String tipo) {
+    public Documento(String nome, String tipo) {
         this.nome = nome;
         this.tipo = tipo;
     }
 
+    public Documento() {
+    }
+
     @Override
     public void imprimir() {
-        System.out.println("Meu nome é: " + this.nome + " meu tipo é: " + this.tipo + " sou uma selfie");
+        System.out.println("Meu nome é: " + this.nome + " meu tipo é: " + this.tipo + " sou um documento muito legal");
     }
 }
