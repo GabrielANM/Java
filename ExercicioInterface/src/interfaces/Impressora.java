@@ -12,6 +12,6 @@ public class Impressora  {
     }
 
     public void adicionarImprimivel(String imprimivel) {
-        imprimiveis.add(imprimivel);
+        imprimiveis.add(0, );
     }
 }
