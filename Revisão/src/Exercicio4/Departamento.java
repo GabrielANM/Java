@@ -28,4 +28,12 @@ public class Departamento {
 
     public void setFuncionarios(boolean add) {
     }
+
+    public void remover (Integer numero, List<Funcionario> funcionarios) {
+        funcionarios.remove(numero);
+    }
+
+    public void adicionar (Funcionario funcionario, List<Funcionario> funcionarios) {
+        funcionarios.add(funcionario);
+    }
 }

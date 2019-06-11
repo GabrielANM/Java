@@ -34,4 +34,21 @@ public class Funcionario {
         this.salario = salario;
         this.dataDeAdmissao = dataDeAdmissao;
     }
+
+    @Override
+    public String toString() {
+        return "Funcionario{" +
+                "nome='" + nome + '\'' +
+                ", salario=" + salario +
+                ", dataDeAdmissao='" + dataDeAdmissao + '\'' +
+                '}';
+    }
+
+    public void aumentaSalario () {
+        double aumento = this.salario * 0.1;
+        this.salario += aumento;
+
+
+
+    }
 }

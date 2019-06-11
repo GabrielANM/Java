@@ -23,7 +23,7 @@ public class Empresa {
         this.cnpj = cnpj;
     }
 
-    public List<Departamento> getDepartamentos(String nome) {
+    public List<Departamento> getDepartamentos(Departamento departamento) {
         return departamentos;
     }
 

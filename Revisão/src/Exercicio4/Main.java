@@ -33,9 +33,14 @@ public class Main {
 
         Empresa empresa = new Empresa( "Bar do Zé", "0775576576-31", listaDeDepartamentos);
 
-        /*departamento.setFuncionarios(fun.add(laura));
-        System.out.println(fun.get(1).getNome()); */
+        for (int i = 0;  i < empresa.getDepartamentos(departamento).get(0).getFuncionarios().size(); i++) {
+            empresa.getDepartamentos(departamento).get(0).getFuncionarios().get(i).aumentaSalario();
+        }
+            System.out.println(gabriel.getSalario());
+            System.out.println(laura.getSalario());
 
-
+            departamento.remover( 0, listaDeFuncionarios1);
+            departamento1.adicionar( gabriel, listaDeFuncionarios2);
+        System.out.println(listaDeFuncionarios2.toString());
     }
 }
