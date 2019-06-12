@@ -36,4 +36,12 @@ public class Departamento {
     public void adicionar (Funcionario funcionario, List<Funcionario> funcionarios) {
         funcionarios.add(funcionario);
     }
+
+    @Override
+    public String toString() {
+        return "Departamento{" +
+                "nome='" + nome + '\'' +
+                ", funcionarios=" + funcionarios +
+                '}';
+    }
 }

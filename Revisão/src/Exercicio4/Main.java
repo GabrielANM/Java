@@ -42,5 +42,6 @@ public class Main {
             departamento.remover( 0, listaDeFuncionarios1);
             departamento1.adicionar( gabriel, listaDeFuncionarios2);
         System.out.println(listaDeFuncionarios2.toString());
+        System.out.println(empresa.toString());
     }
 }

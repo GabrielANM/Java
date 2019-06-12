@@ -31,10 +31,22 @@ public class Empresa {
         this.departamentos = departamentos;
     }
 
+    @Override
+    public String toString() {
+        return "Empresa{" +
+                "nome='" + nome + '\'' +
+                ", cnpj='" + cnpj + '\'' +
+                ", departamentos=" + departamentos +
+                '}';
+    }
+
     public Empresa(String nome, String cnpj, List<Departamento> departamentos) {
         this.nome = nome;
         this.cnpj = cnpj;
         this.departamentos = departamentos;
+
+
+
     }
 
 
