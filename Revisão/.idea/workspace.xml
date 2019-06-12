@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24a81ea5-aed5-42af-981e-0de9974a739b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio5/Circulos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lista2_Exercicio1/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lista2_Exercicio1/Aula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lista2_Exercicio1/Materia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Revisão/Exercicio1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Revisão/Exercicio1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Revisão/Exercicio1/Numero_inteiro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Revisão/Exercicio1/Numero_inteiro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Revisão/Exercicio2/LeitorDeNomes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Revisão/Exercicio2/LeitorDeNomes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Revisão/Exercicio2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Revisão/Exercicio2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Revisão/Exercicio3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Revisão/Exercicio3/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Revisão/Exercicio3/NumeroDecrescente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Revisão/Exercicio3/NumeroDecrescente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Revisão/Exercicio4/Departamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Revisão/Exercicio4/Departamento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Revisão/Exercicio4/Empresa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Revisão/Exercicio4/Empresa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Revisão/Exercicio4/Funcionario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Revisão/Exercicio4/Funcionario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Revisão/Exercicio4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Revisão/Exercicio4/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio5/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio5/Quadrilatero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio5/Quadrilatero.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,55 +23,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Exercicio5/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Exercicio5/FormasGeometricas.java">
+        <entry file="file://$PROJECT_DIR$/src/Lista2_Exercicio1/Materia.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Exercicio5/Circulos.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="20" column="128" selection-start-line="20" selection-start-column="128" selection-end-line="20" selection-end-column="128" />
+            <state relative-caret-position="221">
+              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
               <folding>
-                <element signature="e#128#129#0" expanded="true" />
-                <element signature="e#155#156#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#104#105#0" expanded="true" />
+                <element signature="e#131#132#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Exercicio5/Quadrilatero.java">
+        <entry file="file://$PROJECT_DIR$/src/Lista2_Exercicio1/Aula.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="31" column="83" selection-start-line="31" selection-start-column="83" selection-end-line="31" selection-end-column="83" />
+            <state relative-caret-position="527">
+              <caret line="31" column="77" selection-start-line="31" selection-start-column="77" selection-end-line="31" selection-end-column="77" />
               <folding>
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#187#188#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
                 <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#547#548#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lista2_Exercicio1/Aluno.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="38" column="154" selection-start-line="38" selection-start-column="154" selection-end-line="38" selection-end-column="154" />
+              <folding>
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,10 +103,13 @@
         <option value="$PROJECT_DIR$/src/Exercicio5/Circulos.java" />
         <option value="$PROJECT_DIR$/src/Exercicio5/Main.java" />
         <option value="$PROJECT_DIR$/src/Exercicio5/Quadrilatero.java" />
+        <option value="$PROJECT_DIR$/src/Lista2_Exercicio1/Materia.java" />
+        <option value="$PROJECT_DIR$/src/Lista2_Exercicio1/Aula.java" />
+        <option value="$PROJECT_DIR$/src/Lista2_Exercicio1/Aluno.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="160" />
     <option name="width" value="559" />
     <option name="height" value="589" />
@@ -141,7 +139,7 @@
               <item name="Revisão" type="b2602c69:ProjectViewProjectNode" />
               <item name="Revisão" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercicio5" type="462c0819:PsiDirectoryNode" />
+              <item name="Lista2_Exercicio1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -200,14 +198,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" sideWeight="0.502439" side_tool="true" weight="0.24962178" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -215,7 +212,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -259,6 +256,13 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Exercicio5/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Exercicio5/FormasGeometricas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -298,10 +302,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exercicio5/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Lista2_Exercicio1/Materia.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+        <state relative-caret-position="221">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lista2_Exercicio1/Aula.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="77" selection-start-line="31" selection-start-column="77" selection-end-line="31" selection-end-column="77" />
+          <folding>
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lista2_Exercicio1/Aluno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="38" column="154" selection-start-line="38" selection-start-column="154" selection-end-line="38" selection-end-column="154" />
+          <folding>
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
