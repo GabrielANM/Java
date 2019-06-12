@@ -27,7 +27,20 @@ public class Quadrilatero implements FormasGeometricas {
     }
 
     @Override
+    public void calculaAreaDaForma() {
+        if (this.base > 0 && this.altura > 0) {
+            System.out.println("base: " + this.base + ", altura: " + this.altura + ", a área deste quadrilatero é de: " + this.altura * this.base + " m²");
+        } else {
+            System.out.println("Impossivel efetuar os calculos com valores negativos ou iguais a 0");
+        }
+    }
+
+    @Override
     public void calculaPerimetro() {
-        System.out.println(this.altura * this.base);
+        if (this.base > 0 && this.altura > 0) {
+            System.out.println("base: " + this.base + ", altura: " + this.altura + ", o perimetro deste quadrilatero é de: " + (this.altura * 2 + this.base * 2) + " m");
+        } else {
+            System.out.println("Impossivel efetuar os calculos com valores negativos ou iguais a 0");
+        }
     }
 }
