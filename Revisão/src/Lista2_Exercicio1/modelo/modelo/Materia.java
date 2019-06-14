@@ -1,4 +1,4 @@
-package Lista2_Exercicio1;
+package Lista2_Exercicio1.modelo.modelo;
 
 public class Materia {
     public String nome;
@@ -13,5 +13,12 @@ public class Materia {
 
     public Materia(String nome) {
         this.nome = nome;
+    }
+
+    @Override
+    public String toString() {
+        return "Materia{" +
+                "nome='" + nome + '\'' +
+                '}';
     }
 }

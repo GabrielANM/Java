@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="397bd1e1-b814-4c47-9357-ed9df281e760" name="Default" comment="">
+    <list default="true" id="8ce3e549-2928-42c2-9741-a192ba76ae80" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/modelo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/modelo/modelo/Curso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/modelo/modelo/Professor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Conjustos/Conjustos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Conjustos/Conjustos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exceptions/Exceptions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions/Exceptions.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExercicioInterface/ExercicioInterface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ExercicioInterface/ExercicioInterface.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExericicioColections/ExericicioColections.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ExericicioColections/ExericicioColections.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IdeaProjects/JavaOnline/JavaOnline.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IdeaProjects/JavaOnline/JavaOnline.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IdeaProjects/exercicios while/exercicios while.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IdeaProjects/exercicios while/exercicios while.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Quarta_feira+05_06.2/Quarta_feira+05_06.2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Quarta_feira+05_06.2/Quarta_feira+05_06.2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Quarta_feira_05_06/Quarta_feira_05_06.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Quarta_feira_05_06/Quarta_feira_05_06.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurante/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurante/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurante/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurante/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurante/Restaurante.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurante/Restaurante.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurante/src/Restaurante.java" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurante/src/Restaurante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurante/src/modelo/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurante/src/modelo/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurante/src/modelo/Comanda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurante/src/modelo/Comanda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisão/Revisão.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Revisão/Revisão.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/modelo/modelo/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/Aula.java" beforeDir="false" afterPath="$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/modelo/modelo/Aula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/Materia.java" beforeDir="false" afterPath="$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/modelo/modelo/Materia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Segunda_feira_03_06/Segunda_feira_03_06.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Segunda_feira_03_06/Segunda_feira_03_06.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Terça_feira_11_06/Terça_feira_11_06.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Terça_feira_11_06/Terça_feira_11_06.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Terça_feira_28_05/Terça_feira_28_05.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Terça_feira_28_05/Terça_feira_28_05.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercicio_poo/exercicio_poo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_poo/exercicio_poo.iml" afterDir="false" />
     </list>
@@ -34,11 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Restaurante.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Restaurante/src/Restaurante.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/modelo/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="266">
+              <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,89 +50,93 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cliente.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Restaurante/src/modelo/Cliente.java">
+      <file leaf-file-name="Materia.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/modelo/modelo/Materia.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+            <state relative-caret-position="324">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
               <folding>
-                <element signature="e#148#149#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#215#216#0" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#104#105#0" expanded="true" />
+                <element signature="e#131#132#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Comanda.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Restaurante/src/modelo/Comanda.java">
+      <file leaf-file-name="Aula.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/modelo/modelo/Aula.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+            <state relative-caret-position="122">
+              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Aluno.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/modelo/modelo/Aluno.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="47" column="130" selection-start-line="47" selection-start-column="130" selection-end-line="47" selection-end-column="130" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Professor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/modelo/modelo/Professor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
               <folding>
-                <element signature="e#183#184#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Manobrista.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Restaurante/src/modelo/Manobrista.java">
+      <file leaf-file-name="Curso.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/modelo/modelo/Curso.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Garçom.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Restaurante/src/modelo/Garçom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Funcionario.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Restaurante/src/modelo/Funcionario.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cozinheiro.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Restaurante/src/modelo/Cozinheiro.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="864">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#728#729#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -136,54 +144,72 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Restaurante/src/modelo/Comanda.java" />
-        <option value="$PROJECT_DIR$/Restaurante/src/Restaurante.java" />
-        <option value="$PROJECT_DIR$/Restaurante/src/modelo/Cliente.java" />
+        <option value="$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/modelo/Aluno.java" />
+        <option value="$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/modelo/Aula.java" />
+        <option value="$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/modelo/modelo/Materia.java" />
+        <option value="$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/modelo/modelo/Aula.java" />
+        <option value="$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/modelo/modelo/Curso.java" />
+        <option value="$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/modelo/modelo/Aluno.java" />
+        <option value="$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/modelo/modelo/Professor.java" />
+        <option value="$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/modelo/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="614" />
-    <option name="height" value="735" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="372" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="GabrielANM.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Restaurante" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Revisão" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="GabrielANM.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Restaurante" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Revisão" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="GabrielANM.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Restaurante" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Revisão" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Exercicio4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Revisão" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="modelo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Revisão" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="modelo" type="462c0819:PsiDirectoryNode" />
               <item name="modelo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Exceptions" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -198,10 +224,16 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Restaurante" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Restaurante" />
-      <module name="Restaurante" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lista2_Exercicio1.modelo.Main" />
+      <module name="Revisão" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lista2_Exercicio1.modelo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -246,7 +278,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Restaurante" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -255,11 +287,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="397bd1e1-b814-4c47-9357-ed9df281e760" name="Default" comment="" />
-      <created>1560255360805</created>
+      <changelist id="8ce3e549-2928-42c2-9741-a192ba76ae80" name="Default" comment="" />
+      <created>1560541333521</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1560255360805</updated>
+      <updated>1560541333521</updated>
     </task>
     <servers />
   </component>
@@ -275,22 +307,22 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290938" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290938" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24304539" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
@@ -299,85 +331,142 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Restaurante/src/modelo/Manobrista.java">
+    <entry file="file://$PROJECT_DIR$/Revisão/src/Exercicio5/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="36">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Restaurante/src/modelo/Garçom.java">
+    <entry file="file://$PROJECT_DIR$/Revisão/src/Exercicio5/Circulos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="36">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Restaurante/src/modelo/Funcionario.java">
+    <entry file="file://$PROJECT_DIR$/Conjustos/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="36">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Restaurante/src/modelo/Cozinheiro.java">
+    <entry file="file://$PROJECT_DIR$/ExericicioColections/src/Exercicio1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="-418">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Revisão/src/Exercicio4/Empresa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Revisão/src/Exercicio4/Funcionario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Restaurante/src/modelo/Comanda.java">
+    <entry file="file://$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/modelo/modelo/Aula.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        <state relative-caret-position="122">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/modelo/modelo/Aluno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="47" column="130" selection-start-line="47" selection-start-column="130" selection-end-line="47" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/modelo/modelo/Professor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
           <folding>
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Restaurante/src/Restaurante.java">
+    <entry file="file://$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/modelo/modelo/Materia.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="324">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/modelo/modelo/Curso.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Revisão/src/Lista2_Exercicio1/modelo/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Restaurante/src/modelo/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
-          <folding>
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

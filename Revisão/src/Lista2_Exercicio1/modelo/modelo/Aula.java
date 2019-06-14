@@ -1,4 +1,4 @@
-package Lista2_Exercicio1;
+package Lista2_Exercicio1.modelo.modelo;
 
 public class Aula {
     public Materia materia;
@@ -33,5 +33,14 @@ public class Aula {
         this.materia = materia;
         this.horarioInicio = horarioInicio;
         this.horarioFinal = horarioFinal;
+    }
+
+    @Override
+    public String toString() {
+        return "Aula{" +
+                "materia=" + materia +
+                ", horarioInicio='" + horarioInicio + '\'' +
+                ", horarioFinal='" + horarioFinal + '\'' +
+                '}';
     }
 }

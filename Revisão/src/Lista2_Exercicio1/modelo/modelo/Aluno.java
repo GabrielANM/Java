@@ -1,4 +1,4 @@
-package Lista2_Exercicio1;
+package Lista2_Exercicio1.modelo.modelo;
 
 public class Aluno {
     public Integer ra;
@@ -35,7 +35,16 @@ public class Aluno {
         this.sobrenome = sobrenome;
     }
 
+    @Override
+    public String toString() {
+        return "Aluno{" +
+                "ra=" + ra +
+                ", nome='" + nome + '\'' +
+                ", sobrenome='" + sobrenome + '\'' +
+                '}';
+    }
+
     public void assistirAula(Aula aula) {
-        System.out.println("O aluno assistiu a aula de: " + aula.materia + "que começou as: " + aula.horarioInicio + "e terminou as: " + aula.horarioFinal);
+        System.out.println("O aluno assistiu a aula de: " + aula.materia.getNome() + " que começou as: " + aula.horarioInicio + " e terminou as: " + aula.horarioFinal);
     }
 }
