@@ -42,15 +42,25 @@ public class Curso {
     }
 
     public void adicionarAula(Aula aula) {
-        this.alunos.add(aula);
+        this.aulas.add( aula);
     }
 
     public void removerAula(Aula aula) {
-        this.alunos.remove(aula);
+        this.aulas.remove(aula);
     }
 
     public Curso(String nome, Professor professor) {
         this.nome = nome;
         this.professor = professor;
+    }
+
+    @Override
+    public String toString() {
+        return "Curso{" +
+                "nome='" + nome + '\'' +
+                ", professor=" + professor +
+                ", alunos=" + alunos +
+                ", aulas=" + aulas +
+                '}';
     }
 }

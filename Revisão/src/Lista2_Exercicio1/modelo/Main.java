@@ -24,16 +24,20 @@ public class Main {
         luiz.assistirAula(programação1);
         jorge.darAula(programação2);
 
-        Turma turma = new Turma("Generation", curso);
         Curso cursos = new Curso( "Generation", jorge);
+        Turma turma = new Turma("Generation", cursos);
 
         cursos.adicionarAluno(gabriel);
         cursos.adicionarAluno(luiz);
         cursos.adicionarAluno(thiago);
 
+        cursos.adicionarAula(programação1);
+        cursos.adicionarAula(programação2);
+        cursos.adicionarAula(programação3);
 
 
-        System.out.println(curso);
+
+        System.out.println(cursos);
         System.out.println(turma);
 
 
