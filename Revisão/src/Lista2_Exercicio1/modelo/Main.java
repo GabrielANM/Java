@@ -1,10 +1,8 @@
 package Lista2_Exercicio1.modelo;
 
-import Lista2_Exercicio1.modelo.modelo.Aluno;
-import Lista2_Exercicio1.modelo.modelo.Aula;
-import Lista2_Exercicio1.modelo.modelo.Materia;
-import Lista2_Exercicio1.modelo.modelo.Professor;
+import Lista2_Exercicio1.modelo.modelo.*;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -22,17 +20,24 @@ public class Main {
         Aluno thiago = new Aluno(123231, "Thiago", "Casa Grande");
         Professor jorge = new Professor("Jorge", 123231);
 
+
         luiz.assistirAula(programação1);
         jorge.darAula(programação2);
 
-        Set<Aluno> conjuntoDeAlunos = new HashSet<>();
-        conjuntoDeAlunos.add(luiz);
-        conjuntoDeAlunos.add(gabriel);
-        conjuntoDeAlunos.add(thiago);
+        Turma turma = new Turma("Generation", curso);
+        Curso cursos = new Curso( "Generation", jorge);
 
-        List<Aula> listaDeAula = new 
+        cursos.adicionarAluno(gabriel);
+        cursos.adicionarAluno(luiz);
+        cursos.adicionarAluno(thiago);
 
-        jorge.fazerChamada(conjuntoDeAlunos);
+
+
+        System.out.println(curso);
+        System.out.println(turma);
+
+
+
 
     }
 }

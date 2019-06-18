@@ -1,11 +1,13 @@
 package Lista2_Exercicio1.modelo.modelo;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
+
 
 public class Curso {
     private String nome;
-    private Set<Aula> conuntoDeAulas;
-    private List<Aluno> listaDeAlunos;
+    private Professor professor;
+    private  List<Aluno> alunos = new ArrayList<>();
+    private List<Aula> aulas = new ArrayList<>();
 
     public String getNome() {
         return nome;
@@ -15,36 +17,40 @@ public class Curso {
         this.nome = nome;
     }
 
-    public Set<Aula> getConuntoDeAulas() {
-        return conuntoDeAulas;
+    public Professor getProfessor() {
+        return professor;
     }
 
-    public void setConuntoDeAulas(Set<Aula> conuntoDeAulas) {
-        this.conuntoDeAulas = conuntoDeAulas;
+    public void setProfessor(Professor professor) {
+        this.professor = professor;
     }
 
-    public List<Aluno> getListaDeAlunos() {
-        return listaDeAlunos;
+    public List<Aluno> getAlunos() {
+        return alunos;
     }
 
-    public void setListaDeAlunos(List<Aluno> listaDeAlunos) {
-        this.listaDeAlunos = listaDeAlunos;
+    public List<Aula> getAulas() {
+        return aulas;
     }
 
-    public Curso(String nome, Set<Aula> conuntoDeAulas, List<Aluno> listaDeAlunos) {
+    public void adicionarAluno(Aluno aluno) {
+        this.alunos.add(aluno);
+    }
+
+    public void removerAluno(Aluno aluno) {
+        this.alunos.remove(aluno);
+    }
+
+    public void adicionarAula(Aula aula) {
+        this.alunos.add(aula);
+    }
+
+    public void removerAula(Aula aula) {
+        this.alunos.remove(aula);
+    }
+
+    public Curso(String nome, Professor professor) {
         this.nome = nome;
-        this.conuntoDeAulas = conuntoDeAulas;
-        this.listaDeAlunos = listaDeAlunos;
+        this.professor = professor;
     }
-
-    @Override
-    public String toString() {
-        return "Curso{" +
-                "nome='" + nome + '\'' +
-                ", conuntoDeAulas=" + conuntoDeAulas +
-                ", listaDeAlunos=" + listaDeAlunos +
-                '}';
-    }
-
-
 }
