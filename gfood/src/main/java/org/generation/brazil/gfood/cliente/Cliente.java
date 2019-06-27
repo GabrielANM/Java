@@ -16,7 +16,7 @@ public class Cliente {
     @NotNull
     private String nome;
 
-    private String endereco;
+    private String address;
 
     public String getNome() {
         return nome;
@@ -26,11 +26,19 @@ public class Cliente {
         this.nome = nome;
     }
 
-    public String getEndereco() {
-        return endereco;
+    public String getAddress() {
+        return address;
     }
 
-    public void setEndereco(String endereco) {
-        this.endereco = endereco;
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setAddress(String endereco) {
+        this.address = endereco;
     }
 }

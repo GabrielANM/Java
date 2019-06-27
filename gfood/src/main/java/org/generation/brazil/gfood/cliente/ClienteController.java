@@ -5,6 +5,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 public class ClienteController {
@@ -25,8 +26,8 @@ public class ClienteController {
 
 private ClienteRepository repository;
 
-@GetMapping("/clientes")
-public List<Cliente> findAll() {
+    @GetMapping("/clientes")
+    public List<Cliente> findAll() {
     // SELECT * FROM cliente
     return repository.findAll();
     }
@@ -37,5 +38,19 @@ public List<Cliente> findAll() {
     // INSERT INTO
     return repository.save(cliente);
     }
+
+    @PutMapping("/clientes/{id}")
+    public Cliente update(@PathVariable Long id, @RequestBody Cliente cliente) {
+        //Optional<Cliente> optionalCliente = repository.findById(id);
+        // TODO -- Atualizar algum registro da tabela
+        return null;
+    }
+
+    @DeleteMapping("/clientes/{id}")
+    public void delete(@PathVariable Long id) {
+    repository.deleteById(id);
+    }
+
+
 
 }
