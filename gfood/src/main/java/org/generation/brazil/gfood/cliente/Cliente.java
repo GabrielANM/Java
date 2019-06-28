@@ -1,11 +1,14 @@
 package org.generation.brazil.gfood.cliente;
 
+import lombok.Data;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
 
+@Data
 @Entity
 public class Cliente {
 
@@ -18,27 +21,6 @@ public class Cliente {
 
     private String address;
 
-    public String getNome() {
-        return nome;
-    }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
 
-    public String getAddress() {
-        return address;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public void setAddress(String endereco) {
-        this.address = endereco;
-    }
 }
