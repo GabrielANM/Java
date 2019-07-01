@@ -31,6 +31,7 @@ public class ProdutoController {
         return repository.findById(id_produto).map(c -> {
             c.setNome(produto.getNome());
             c.setDescricao(produto.getDescricao());
+            c.setPreco(produto.getPreco());
             return repository.save(c);
 
         }).orElseThrow(() -> new ResourceNotFoundException("Não existe produto cadastrado com o id_produto: " + id_produto));

@@ -1,5 +1,6 @@
 package org.generation.brazil.gfood.cliente;
 
+import org.generation.brazil.gfood.exception.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -39,16 +40,20 @@ private ClienteRepository repository;
     return repository.save(cliente);
     }
 
-    @PutMapping("/clientes/{id}")
-    public Cliente update(@PathVariable Long id, @RequestBody Cliente cliente) {
-        //Optional<Cliente> optionalCliente = repository.findById(id);
-        // TODO -- Atualizar algum registro da tabela
-        return null;
+    @PutMapping("/clientes/{id_cliente}")
+    public Cliente update(@PathVariable Long id_cliente, @RequestBody Cliente cliente) throws ResourceNotFoundException {
+        return repository.findById(id_cliente).map(c -> {
+            c.setNome(cliente.getNome());
+            c.setEndereco(cliente.getEndereco());
+            c.setData_de_nasc(cliente.getData_de_nasc());
+            return repository.save(c);
+
+        }).orElseThrow(() -> new ResourceNotFoundException("Não existe produto cadastrado com o id_cliente: " + id_cliente));
     }
 
-    @DeleteMapping("/clientes/{id}")
-    public void delete(@PathVariable Long id) {
-    repository.deleteById(id);
+    @DeleteMapping("/clientes/{id_cliente}")
+    public void delete(@PathVariable Long id_cliente) {
+    repository.deleteById(id_cliente);
     }
 
 
