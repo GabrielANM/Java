@@ -21,6 +21,9 @@ public class Solution {
                     }
                 }
             }
+            if (posAtual == posFinal) {
+                break;
+            }
         }
         if (posAtual == posFinal) {
             return true;

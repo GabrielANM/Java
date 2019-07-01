@@ -1,13 +1,12 @@
 package org.generation.brazil.gfood.produto;
 
-import org.generation.brazil.gfood.cliente.Cliente;
 import org.generation.brazil.gfood.exception.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.concurrent.RejectedExecutionException;
+import java.util.Optional;
 
 @RestController
 public class ProdutoController {
@@ -19,6 +18,7 @@ public class ProdutoController {
     public List<Produto> findAll() {
        return repository.findAll();
     }
+
 
     @ResponseStatus(HttpStatus.CREATED)
     @PostMapping("/produtos")
