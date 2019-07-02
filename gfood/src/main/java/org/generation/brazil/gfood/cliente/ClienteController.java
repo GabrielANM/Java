@@ -1,5 +1,6 @@
 package org.generation.brazil.gfood.cliente;
 
+import java.sql.Date;
 import org.generation.brazil.gfood.exception.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -31,6 +32,21 @@ private ClienteRepository repository;
     public List<Cliente> findAll() {
     // SELECT * FROM cliente
     return repository.findAll();
+    }
+
+    @GetMapping("/clientes/{id_cliente}")
+    public Optional<Cliente> finById(@PathVariable Long id_cliente) {
+        return repository.findById(id_cliente);
+    }
+
+    @PostMapping("/clientes/nome")
+    public List<Cliente> findByNome(@RequestParam String nome) {
+        return repository.findByNome(nome);
+    }
+
+    @PostMapping("/clientes/data")
+    public List<Cliente> findByData_de_nasc(@RequestParam Date data_de_nasc) {
+        return repository.findByData_de_nasc(data_de_nasc);
     }
 
     @ResponseStatus(HttpStatus.CREATED)

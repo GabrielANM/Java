@@ -7,6 +7,7 @@ public class Main {
         Solution solution = new Solution();
 
         Scanner scan = new Scanner(System.in);
+
         int q = scan.nextInt();
         while (q-- > 0) {
             int n = scan.nextInt();
