@@ -49,11 +49,21 @@ private ClienteRepository repository;
         return repository.findByDataDeNasc(data);
     }
 
+    @PostMapping("/clientes/nome_data")
+    public List<Cliente> findByNomeAndDataDeNasc(@RequestParam String nome, @RequestParam Date data) {
+        return repository.findByNomeAndDataDeNasc(nome, data);
+    }
+
     @ResponseStatus(HttpStatus.CREATED)
     @PostMapping("/clientes")
     public Cliente save(@RequestBody Cliente cliente) {
     // INSERT INTO
     return repository.save(cliente);
+    }
+
+    @PutMapping("/clientes/{nome}")
+    public Cliente findByUmNome (@PathVariable String nome, @RequestParam String novoNome) {
+        return repository.save(novoNome);
     }
 
     @PutMapping("/clientes/{id_cliente}")

@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
+import java.math.BigDecimal;
 import java.util.List;
 import java.util.Optional;
 
@@ -23,6 +24,21 @@ public class ProdutoController {
     @GetMapping("/produtos/{id}")
     public Optional<Produto> finById(@PathVariable Long id) {
         return repository.findById(id);
+    }
+
+    @PostMapping("/produtos/menor")
+    public List<Produto> findByPrecoBefore(@RequestParam BigDecimal preco) {
+        return repository.findByPrecoBefore(preco);
+    }
+
+    @PostMapping("/produtos/maior")
+    public List<Produto> findByPrecoAfter(@RequestParam BigDecimal preco) {
+        return repository.findByPrecoAfter(preco);
+    }
+
+    @PostMapping("/produtos/entre")
+    public List<Produto> findByPrecoBetween (@RequestParam BigDecimal min, BigDecimal max) {
+        return repository.findByPrecoBetween(min, max);
     }
 
 
