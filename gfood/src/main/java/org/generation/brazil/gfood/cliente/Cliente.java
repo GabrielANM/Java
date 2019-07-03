@@ -3,15 +3,13 @@ package org.generation.brazil.gfood.cliente;
 import java.sql.Date;
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 
 @Data
 @Entity
 public class Cliente {
+
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,6 +21,7 @@ public class Cliente {
     private String endereco;
 
     @NotNull
-    private Date data_de_nasc;
+    @Column(name = "data_de_nasc")
+    private Date dataDeNasc;
 
 }

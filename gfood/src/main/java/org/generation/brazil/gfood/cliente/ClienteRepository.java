@@ -10,5 +10,7 @@ public interface ClienteRepository extends JpaRepository<Cliente, Long> {
 
 
   List<Cliente> findByNome(String cliente);
-  List<Cliente> findByData_de_nasc(Date cliente);
+  List<Cliente> findByDataDeNasc(Date data);
+
+  List<>
 }

@@ -45,8 +45,8 @@ private ClienteRepository repository;
     }
 
     @PostMapping("/clientes/data")
-    public List<Cliente> findByData_de_nasc(@RequestParam Date data_de_nasc) {
-        return repository.findByData_de_nasc(data_de_nasc);
+    public List<Cliente> findByDataDeNasc(@RequestParam Date data) {
+        return repository.findByDataDeNasc(data);
     }
 
     @ResponseStatus(HttpStatus.CREATED)
@@ -61,7 +61,7 @@ private ClienteRepository repository;
         return repository.findById(id_cliente).map(c -> {
             c.setNome(cliente.getNome());
             c.setEndereco(cliente.getEndereco());
-            c.setData_de_nasc(cliente.getData_de_nasc());
+            c.setDataDeNasc(cliente.getDataDeNasc());
             return repository.save(c);
 
         }).orElseThrow(() -> new ResourceNotFoundException("Não existe produto cadastrado com o id_cliente: " + id_cliente));
