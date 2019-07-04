@@ -3,13 +3,16 @@ package org.generation.brazil.gfood.cliente;
 import java.sql.Date;
 import org.generation.brazil.gfood.exception.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
 @RestController
+@RequestMapping("/api/v1")
 public class ClienteController {
 
     @Autowired
@@ -61,9 +64,9 @@ private ClienteRepository repository;
     return repository.save(cliente);
     }
 
-    @PutMapping("/clientes/{nome}")
-    public Cliente findByUmNome (@PathVariable String nome, @RequestParam String novoNome) {
-        return repository.save(novoNome);
+    @PutMapping("/clientes/muda_nome/{id_cliente}")
+    public void updateClienteByNome (@PathVariable Long id_cliente, @RequestParam String nome) {
+        repository.updateClienteByNome(nome, id_cliente);
     }
 
     @PutMapping("/clientes/{id_cliente}")
@@ -81,6 +84,12 @@ private ClienteRepository repository;
     public void delete(@PathVariable Long id_cliente) {
     repository.deleteById(id_cliente);
     }
+
+    @DeleteMapping("/clientes/delete-by")
+    public void deleteByDataDeNascimentoAndNome(@RequestParam Date dataDeNasc, @RequestParam String nome) {
+        repository.deleteByDataDeNascAndNome(dataDeNasc, nome);
+    }
+
 
 
 
