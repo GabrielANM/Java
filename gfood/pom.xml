@@ -50,6 +50,13 @@
 			<version>2.1.6.RELEASE</version>
 		</dependency>
 
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+		</dependency>
+
+
+
 
 		<dependency>
 			<groupId>mysql</groupId>
