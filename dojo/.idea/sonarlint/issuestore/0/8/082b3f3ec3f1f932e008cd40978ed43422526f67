@@ -1,0 +1,13 @@
+
+Jsquid:S1481"'Remove this unused "sc" local variable.(ðÛ²¸øÿÿÿÿ8Ó´‘À-
+asquid:S1854">Remove this useless assignment to local variable "doisBuraco".(Ÿ»ßÊûÿÿÿÿ8†¤í‘À-
+_squid:S1854
+"<Remove this useless assignment to local variable "umBuraco".(Õï·åþÿÿÿÿ8†¤í‘À-
+Ysquid:S1854"6Remove this useless assignment to local variable "sc".(ðÛ²¸øÿÿÿÿ8Ó´‘À-
+Rsquid:S1481"/Remove this unused "doisBuraco" local variable.(Ÿ»ßÊûÿÿÿÿ8†¤í‘À-
+asquid:S1854	">Remove this useless assignment to local variable "zeroBuraco".(’Žþèþÿÿÿÿ8ˆõå‘À-
+_squid:UselessImportCheck"4Remove this unused import 'java.lang.reflect.Array'.(‡¡É˜8ú¾È‘À-
+[squid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Šì¹‘À-
+Rsquid:S1481	"/Remove this unused "zeroBuraco" local variable.(’Žþèþÿÿÿÿ8ˆõå‘À-
+Psquid:S1481
+"-Remove this unused "umBuraco" local variable.(Õï·åþÿÿÿÿ8†¤í‘À-

@@ -5,18 +5,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PessoaListaComponent } from './pessoa-lista/pessoa-lista.component';
 import { PessoaCreateComponent } from './pessoa-create/pessoa-create.component';
-import { PessoaDeatailsComponent } from './pessoa-deatails/pessoa-deatails.component';
+import { PessoaDetailsComponent } from './pessoa-details/pessoa-details.component';
+import {FormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     PessoaListaComponent,
     PessoaCreateComponent,
-    PessoaDeatailsComponent
+    PessoaDetailsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
