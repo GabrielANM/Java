@@ -8,13 +8,15 @@ import { PessoaCreateComponent } from './pessoa-create/pessoa-create.component';
 import { PessoaDetailsComponent } from './pessoa-details/pessoa-details.component';
 import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
+import { PessoaEditComponent } from './pessoa-edit/pessoa-edit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PessoaListaComponent,
     PessoaCreateComponent,
-    PessoaDetailsComponent
+    PessoaDetailsComponent,
+    PessoaEditComponent
   ],
   imports: [
     BrowserModule,

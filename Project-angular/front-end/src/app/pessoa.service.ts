@@ -2,6 +2,7 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {Observable} from 'rxjs';
+import {Pessoa} from './pessoa';
 
 @Injectable({
   providedIn: 'root'
@@ -19,10 +20,11 @@ export class PessoaService {
   createPessoa(pessoa: Object): Observable<Object> {
    return this.http.post(`${this.baseUrl}`, pessoa);
   }
-  // tslint:disable-next-line:ban-types
-  updatePessoa(id: number, value: any): Observable<Object> {
-    return this.http.put(`${this.baseUrl}/${id}`, value);
+
+  updateUser(pessoa: Pessoa): Observable<PessoaService> {
+    return this.http.put<PessoaService>(this.baseUrl + pessoa.id, pessoa);
   }
+
   deletePessoa(id: number): Observable<any> {
     return this.http.delete(`${this.baseUrl}/${id}`, {responseType: 'text'});
   }
